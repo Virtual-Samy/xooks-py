@@ -7,14 +7,14 @@
  **/
 
 #include <stdint.h>
-#include "../hookapi.h"
+#include "services/hookapi.h"
 
 #define LIQACCT "rww31Sbht5GgbAqyg5rDEnmPiLtBhfLRsA"
 #define LIQTAX 0.01f
 #define RESIACCT "rLVidmD5cyF1ciLNWLmZ6BdDNnPVdwjh1r"
 #define RESITAX 0.01f
 #define CORPACCT "rLVidmD5cyF1ciLNWLmZ6BdDNnPVdwjh1r"
-#define CROPTAX 0.01f
+#define CORPTAX 0.01f
 
 int64_t cbak(int64_t reserved)
 {
