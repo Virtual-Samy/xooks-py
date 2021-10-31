@@ -1,0 +1,13 @@
+anyio==3.3.4
+base58==2.1.1
+certifi==2021.10.8
+ECPy==1.2.5
+h11==0.12.0
+httpcore==0.13.7
+httpx==0.18.2
+idna==3.3
+rfc3986==1.5.0
+sniffio==1.2.0
+typing-extensions==3.10.0.2
+websockets==9.1
+xrpl-py @ git+https://github.com/dangell7/xrpl-py.git@a2e7678185ec9f608728eca2dae6a19cd82bc564

@@ -1,8 +1,17 @@
 # XRPL Hooks Testnet
 
-Docker Compose the xrpl testnet (Can also just change the code to connect to the public RPC)
+# Set up env
+
+Spin up Hooks Node
 
 `docker-compose up -d --build`
+
+Virtual Env & Install
+
+```python
+mkvirtualenv xooks-py \
+&& pip3 install -r requirements.txt
+```
 
 # Workflow
 
@@ -38,6 +47,6 @@ python3 pay.py s*** 1000 r***
 
 Goto -> "Step 0" :)
 
-## Release
+## TODO
 
-[WIP] Copy from Rust Hooks Repo. Want to build 2 hooks. Debug and Release.
+- Build Debug and Release hook
